@@ -19,6 +19,7 @@ All'interno dell'archivio 'Folders.zip' sono contenute le seguenti cartelle:
 	- 3D_dataset: Slice e maschere manuali dei soggetti di Training e Validation set, salvate come volumi .tiff
 	- PICKLE_and_JSON: File utili da passare tra gli script
 	- Trained_Nets: reti neurali allenate
+Il file "Relazione_Challenge.pdf" contiene la relazione del lavoro svolto.
 
 NOTA: In assenza delle cartelle '3D_dataset', 'PICKLE_and_JSON' e 'Trained_Nets' i codici devono essere runnati in ordine al fine di disporre di tutte le cartelle e file necessari all’esecuzione dei codici successivi. Poiché insieme al codice forniamo tutto il necessario, questo obbligo viene meno. L'unico vincolo che rimane valido è che se viene runnato lo script A, deve essere successivamente runnato anche il B, in quanto entrambi gli script sovrascrivono dei file (dizionari .json).
 
@@ -44,5 +45,7 @@ The following folders are contained in the 'Folders.zip' archive:
 - 3D_dataset: Slices and manual masks of the subjects of the Training and Validation set, saved as .tiff volumes
 - PICKLE_and_JSON: Useful files to pass between scripts
 - Trained_Nets: trained neural networks
+
+The file "Relazione_Challenge.pdf" contains the report of the project.
 
 NOTE: In the absence of the '3D_dataset', 'PICKLE_and_JSON' and 'Trained_Nets' folders, the codes must be run in order, in order to have all the folders and files necessary for the execution of subsequent codes. Since we supply everything necessary with the code, this obligation is no longer valid. The only constraint that remains valid is that if script A is run, then B must be run as well, as both scripts overwrite files (.json dictionaries).
